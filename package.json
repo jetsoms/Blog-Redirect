@@ -1,0 +1,22 @@
+{
+  "name": "jetsoms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -i instances.json index.js",
+    "start": "node index.js"
+  },
+  "author": "Jordan Mitchell",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fastify": "^3.27.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-static": "^4.5.0",
+    "ioredis": "^4.28.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
